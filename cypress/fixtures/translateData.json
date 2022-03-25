@@ -1,0 +1,44 @@
+{
+    "languages": {
+        "source": {
+            "lang": "German",
+            "abbr": "de"
+        },
+        "target": {
+            "lang": "Spanish",
+            "abbr": "es"
+        }
+    },
+    "text": [
+        {
+            "initial": "Demokratien",
+            "expected": "Democracias",
+            "expectTranslationToPass": true,
+            "expectSwapTranslationToPass": true
+        },
+        {
+            "initial": "Demokratien",
+            "expected": "democracia",
+            "expectTranslationToPass": false,
+            "expectSwapTranslationToPass": true
+        },
+        {
+            "initial": "Achtung",
+            "expected": "Atencion",
+            "expectTranslationToPass": false,
+            "expectSwapTranslationToPass": false
+        },
+        {
+            "initial": "Achtung",
+            "expected": "Atención",
+            "expectTranslationToPass": true,
+            "expectSwapTranslationToPass": false
+        }
+    ],
+    "keyboard": {
+        "input": "Hi!",
+        "output": "Hallo!",
+        "selectType": "Spanish",
+        "verifyType": "Español"
+    }
+}
